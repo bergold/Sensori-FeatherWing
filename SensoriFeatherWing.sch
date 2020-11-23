@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "LTC2850 Breakout"
+Title "Sensori FeatherWing"
 Date "2020-11-14"
 Rev "B"
 Comp ""
-Comment1 ""
+Comment1 "Author: Emil Bergold"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -21,6 +21,7 @@ F 0 "U1" H 4200 2800 50  0000 C CNN
 F 1 "LTC2850xMS8" H 4750 1600 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4450 1300 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf" H 3950 2300 50  0001 C CNN
+F 4 "LTC2850IMS8#PBF-ND" H 4450 2200 50  0001 C CNN "DKPN"
 	1    4450 2200
 	1    0    0    -1  
 $EndComp
@@ -99,6 +100,7 @@ F 0 "J2" H 6380 1842 50  0000 L CNN
 F 1 "Conn_01x04" H 6380 1751 50  0000 L CNN
 F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 6300 1850 50  0001 C CNN
 F 3 "~" H 6300 1850 50  0001 C CNN
+F 4 "WM18888-ND" H 6300 1850 50  0001 C CNN "DKPN"
 	1    6300 1850
 	1    0    0    -1  
 $EndComp
@@ -110,6 +112,7 @@ F 0 "J3" H 6380 2292 50  0000 L CNN
 F 1 "Conn_01x04" H 6380 2201 50  0000 L CNN
 F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 6300 2300 50  0001 C CNN
 F 3 "~" H 6300 2300 50  0001 C CNN
+F 4 "WM18888-ND" H 6300 2300 50  0001 C CNN "DKPN"
 	1    6300 2300
 	1    0    0    -1  
 $EndComp
@@ -121,6 +124,7 @@ F 0 "J4" H 6380 2742 50  0000 L CNN
 F 1 "Conn_01x04" H 6380 2651 50  0000 L CNN
 F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 6300 2750 50  0001 C CNN
 F 3 "~" H 6300 2750 50  0001 C CNN
+F 4 "WM18888-ND" H 6300 2750 50  0001 C CNN "DKPN"
 	1    6300 2750
 	1    0    0    -1  
 $EndComp
@@ -236,6 +240,7 @@ F 0 "C1" V 4571 1450 50  0000 C CNN
 F 1 "0.1 µF" V 4662 1450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4800 1450 50  0001 C CNN
 F 3 "~" H 4800 1450 50  0001 C CNN
+F 4 "311-4266-1-ND" H 4800 1450 50  0001 C CNN "DKPN"
 	1    4800 1450
 	0    1    1    0   
 $EndComp
@@ -277,13 +282,13 @@ B
 Text Label 4900 3750 0    50   ~ 0
 A
 Wire Wire Line
-	4900 3750 5200 3750
+	4900 3750 5100 3750
 Wire Wire Line
-	5500 3750 5800 3750
+	5500 3750 5600 3750
 Text Label 5800 3750 0    50   ~ 0
 B
-Text Notes 5250 4050 0    50   ~ 0
-End Termination Resistor (optional)\n~ 120 Ohm
+Text Notes 5200 4450 0    50   ~ 0
+End Termination Resistor (optional)\n~~ 120 Ohm\nPTH and SMD option
 Wire Wire Line
 	7750 1550 8300 1550
 Wire Wire Line
@@ -558,6 +563,7 @@ F 0 "C2" H 7492 4646 50  0000 L CNN
 F 1 "1 µF" H 7492 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7400 4600 50  0001 C CNN
 F 3 "~" H 7400 4600 50  0001 C CNN
+F 4 "311-3497-1-ND" H 7400 4600 50  0001 C CNN "DKPN"
 	1    7400 4600
 	1    0    0    -1  
 $EndComp
@@ -569,6 +575,7 @@ F 0 "C3" H 9292 4646 50  0000 L CNN
 F 1 "10 µF" H 9292 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9200 4600 50  0001 C CNN
 F 3 "~" H 9200 4600 50  0001 C CNN
+F 4 "1276-2872-1-ND" H 9200 4600 50  0001 C CNN "DKPN"
 	1    9200 4600
 	1    0    0    -1  
 $EndComp
@@ -601,9 +608,10 @@ L Switch:SW_SPST SW2
 U 1 1 5FBEB45B
 P 7950 4500
 F 0 "SW2" H 7950 4367 50  0000 C CNN
-F 1 "SW_SPST" H 7950 4276 50  0000 C CNN
+F 1 "SW_SPST" H 7950 4276 50  0001 C CNN
 F 2 "SensoriFeatherWing:SW_DS04-254-1L-01BK" H 7950 4500 50  0001 C CNN
 F 3 "~" H 7950 4500 50  0001 C CNN
+F 4 "2223-DS04-254-1L-01BK-ND" H 7950 4500 50  0001 C CNN "DKPN"
 	1    7950 4500
 	1    0    0    -1  
 $EndComp
@@ -691,6 +699,29 @@ F 4 "576-2770-1-ND" H 8650 4500 50  0001 C CNN "DKPN"
 	1    8650 4500
 	1    0    0    -1  
 $EndComp
-Text Notes 7600 6050 0    50   ~ 0
-TODO:\n- Read datasheet of LDO -> caps? ESR?
+$Comp
+L Device:R R3
+U 1 1 5FB56AFD
+P 5350 4100
+F 0 "R3" V 5143 4100 50  0000 C CNN
+F 1 "120 Ω" V 5234 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 4100 50  0001 C CNN
+F 3 "~" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 3750 5100 4100
+Wire Wire Line
+	5100 4100 5200 4100
+Connection ~ 5100 3750
+Wire Wire Line
+	5100 3750 5200 3750
+Wire Wire Line
+	5500 4100 5600 4100
+Wire Wire Line
+	5600 4100 5600 3750
+Connection ~ 5600 3750
+Wire Wire Line
+	5600 3750 5800 3750
 $EndSCHEMATC
