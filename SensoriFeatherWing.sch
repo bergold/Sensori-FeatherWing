@@ -89,6 +89,7 @@ F 0 "J6" H 7468 1925 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 7468 2016 50  0000 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 7550 2250 50  0001 C CNN
 F 3 "~" H 7550 2250 50  0001 C CNN
+F 4 "732-2745-ND" H 7550 2250 50  0001 C CNN "DKPN"
 	1    7550 2250
 	-1   0    0    1   
 $EndComp
@@ -229,6 +230,7 @@ F 0 "J5" H 7507 1967 50  0000 C CNN
 F 1 "5-12 V, max. 5A" H 7507 1876 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 7500 1610 50  0001 C CNN
 F 3 "~" H 7500 1610 50  0001 C CNN
+F 4 "CP-002AH-ND" H 7450 1650 50  0001 C CNN "DKPN"
 	1    7450 1650
 	1    0    0    -1  
 $EndComp
@@ -623,6 +625,7 @@ F 0 "R2" H 8309 4846 50  0000 L CNN
 F 1 "10 kΩ" H 8309 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8250 4800 50  0001 C CNN
 F 3 "~" H 8250 4800 50  0001 C CNN
+F 4 "311-10KLDCT-ND" H 8250 4800 50  0001 C CNN "DKPN"
 	1    8250 4800
 	1    0    0    -1  
 $EndComp
