@@ -6,6 +6,8 @@ The bus connector is compatible to the Sensorimotor system. (It's a 4-pin Molex 
 
 ![SensoriFeatherWing-2](png/SensoriFeatherWing.png)
 
+**Warning**: Usually Feathers don’t have a reverse USB back-feed protection. You might damage your USB port when the „Power>Feather“ switch is on. So, always turn it off before connecting a USB cable to the Feather.
+
 → [KiCAD Files](https://github.com/bergold/Sensori-FeatherWing)
 
 ## Schematic
